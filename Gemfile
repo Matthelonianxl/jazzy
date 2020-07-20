@@ -18,5 +18,5 @@ group :development do
   gem 'diffy'
 
   # Code Review
-  gem 'danger'
+  gem 'danger', '>= 6.1.0'
 end

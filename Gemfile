@@ -11,12 +11,12 @@ group :development do
   gem 'mocha'
   gem 'mocha-on-bacon'
   gem 'prettybacon'
-  gem 'webmock'
+  gem 'webmock', '>= 3.7.6'
 
   # Integration tests
   gem 'clintegracon', '0.7.0'
   gem 'diffy'
 
   # Code Review
-  gem 'danger'
+  gem 'danger', '>= 6.1.0'
 end

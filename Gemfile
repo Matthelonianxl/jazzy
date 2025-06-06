@@ -14,9 +14,9 @@ group :development do
   gem 'webmock'
 
   # Integration tests
-  gem 'clintegracon', '0.7.0'
+  gem 'clintegracon', '0.8.0'
   gem 'diffy'
 
   # Code Review
-  gem 'danger'
+  gem 'danger', '>= 6.2.0'
 end
